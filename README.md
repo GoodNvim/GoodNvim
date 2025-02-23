@@ -16,7 +16,7 @@
 <div id="Preview">
   <h1>🌅 Preview</h1>
   <img
-    src="https://raw.githubusercontent.com/Timurkaaaaaaa/GoodNvim/refs/heads/master/docs/preview.webp",
+    src="https://raw.githubusercontent.com/GoodNvim/GoodNvim/refs/heads/master/docs/preview.webp",
     width=700px
     />
 </div>
@@ -97,7 +97,7 @@
  <h2>Linux/Mac OS</h2>
 
  ```bash
-git clone --depth 1 https://github.com/Timurkaaaaaaa/GoodNvim.git ~/.config/nvim
+git clone --depth 1 https://github.com/GoodNvim/GoodNvim.git ~/.config/nvim
 rm -rf ~/.config/nvim/.git
 nvim
 ```
@@ -105,7 +105,7 @@ nvim
  <h2>Windows</h2>
 
  ```powershell
-git clone --depth 1 https://github.com/Timurkaaaaaaa/GoodNvim.git $env:LOCALAPPDATA\nvim
+git clone --depth 1 https://github.com/GoodNvim/GoodNvim.git $env:LOCALAPPDATA\nvim
 Remove-Item $env:LOCALAPPDATA\nvim\.git -Recurse -Force
 nvim
 ```
